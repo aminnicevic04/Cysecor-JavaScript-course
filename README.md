@@ -17,3 +17,5 @@ In this leason i learned : *Variables and manipulation of the same
 - After this lesson I did the "Inflation calculator".
 
 - Homework will be making it to the list.
+
+# PAUSED #
