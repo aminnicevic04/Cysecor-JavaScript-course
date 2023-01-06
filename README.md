@@ -18,4 +18,4 @@ In this leason i learned : *Variables and manipulation of the same
 
 - Homework will be making it to the list.
 
-# PAUSED ... #
+# PAUSED... #
