@@ -19,7 +19,7 @@
 // // godine = godine+1; nacin1
 // // godine++           nacin2
 // godine += 1;
-// let recenica = 'Sledece cu imati ' + godine + ' godina ' 
+// let recenica = 'Sledece cu imati ' + godine + ' godina '
 
 // let recenica = `Ja sam ${ime} imam ${godine} godina`
 // //najbolji nacin za ubacivanje varijabli u stringu
@@ -71,7 +71,7 @@
 // } else if (mesec === 3){
 //     console.log('Mart')
 // }
-//ovako bi radili else if 12 puta i nbe treba tako da se radi
+//ovako bi radili else if 12 puta i ne treba tako da se radi
 //nego cemo koristiti switch
 
 // let mesec = 11;
@@ -91,31 +91,30 @@
 //         break;
 //     case 5:
 //         console.log('Maj');
-//         break;  
+//         break;
 //     case 6:
 //         console.log('Jun');
-//         break;  
+//         break;
 //     case 7:
 //     console.log('Jul');
-//         break; 
+//         break;
 //     case 8:
 //         console.log('Avgust');
-//         break;  
+//         break;
 //     case 9:
 //         console.log('Septembar');
-//         break;  
+//         break;
 //     case 10:
 //         console.log('Oktobar');
-//         break;  
+//         break;
 //     case 11:
 //         console.log('Novembar');
-//         break;  
+//         break;
 //     case 12:
 //         console.log('Decembar');
-//         break;              
+//         break;
 // }
 // ovako treba da pisemo ove uslove kada ih ima vise ;)
-
 
 //  PETLJE
 //Petlje sluze da se odredjeni dio koda ponavlja sve dok se ne ispuni neki uslov
@@ -124,7 +123,7 @@
 // let novcanica = 30 ;
 
 // //10eura vrednost jedne novcanice
-// let vrednostNovcanice = 10; 
+// let vrednostNovcanice = 10;
 
 // //brojac
 // let brojac = 0;
@@ -135,12 +134,10 @@
 // //while - dok 'broji novcanice sve dok je brojac manji od broja novcanica'
 // while(brojac < novcanica){
 //     izbrojaneNovcanice++ //ovo odavde moze da se makne jer je dupli brojac
-//     brojac++ //ovo ne moze jer bi napravili infinitive petlju tj beskonacnu petlju 
+//     brojac++ //ovo ne moze jer bi napravili infinitive petlju tj beskonacnu petlju
 // }
 
 // console.log(izbrojaneNovcanice * vrednostNovcanice);
-
-
 
 // sta ako su nam novcanice razliciyte vrednosti za to koristimo  nizove.
 
@@ -154,12 +151,12 @@
 
 // //while - dok 'broji novcanice sve dok je brojac manji od broja novcanica'
 // while(izbrojaneNovcanice < brojNovcanica){
-//     izbrojaneNovcanice++  
+//     izbrojaneNovcanice++
 // }
 
 // console.log('broj izbrojanih novcanica: ' + izbrojaneNovcanice)
 
-// ===== 
+// =====
 // let novcanice = [10, 5, 20, 50, 100, 5, 10, 5, 20, 50, 100, 20];
 // let brojNovcanica = novcanice.length;
 // let brojac = 0;//od nule pocinje zato sto i niz pocinje od nule
@@ -225,7 +222,7 @@
 //objekti sledeci -->
 //objekti nemaju brojanje kao sto imaju nizovi, nego mi treba da mu zadamo sta ima umesto toga
 
-// let automobili = { 
+// let automobili = {
 //     prviAuto:'Audi',
 //     drugiAuto:'BMW',
 //     treciAuto:'Porsche',
@@ -243,7 +240,7 @@
 // console.log(automobili);
 //ispisali smo cene automobila
 //sta ako zelimo da imamo hjos informacija o svakom autu pojedinacno npr. godiste model...
-//u sledecem primeru stavljamo za svaki auto poseban niz 
+//u sledecem primeru stavljamo za svaki auto poseban niz
 //u sledecem primeru imamo 4 niza smestena u jedan objekat
 
 // let automobili = {
@@ -264,7 +261,7 @@
 // for(automobil in automobili){
 //     console.log(automobil)
 // }
-//in korisimo za objekte 
+//in korisimo za objekte
 //ali sada nam samo daje nazive auta
 // let automobili = {
 //     audi:['70000e', '2017', 'Q7'],
@@ -273,12 +270,12 @@
 //     Mercedes:['1000000e', '2020','s400']
 // };
 // for(automobil in automobili){
-//     let naziv = automobil; 
-//     // console.log(naziv) 
+//     let naziv = automobil;
+//     // console.log(naziv)
 //     let podaciOVozilu = automobili[automobil];
 //     // console.log(podaciOVozilu)
 
-//     console.log(`${naziv} model:${podaciOVozilu[2]}, 
+//     console.log(`${naziv} model:${podaciOVozilu[2]},
 //             godiste:${podaciOVozilu[1]},
 //             cena:${podaciOVozilu[0]} eura.`);
 // }
@@ -293,7 +290,6 @@
 // console.log(automobili['audi'])
 // console.log(automobili.audi)
 
-
 // let osoba ={
 //     ime: 'Amin',
 //     prezime:'Nicevic',
@@ -301,28 +297,23 @@
 //     grad:'Novi Pazar'
 // };
 // // console.log(osoba.ime); //dobijamo amin
-// console.log(`Ime:${osoba.ime}, 
+// console.log(`Ime:${osoba.ime},
 // Prezime:${osoba.prezime},
 // Godiste:${osoba.godiste},
 // Grad:${osoba.grad}
 // `)
 
-
 //    FUNKCIJE
-
 
 //STAN
 
-
-
-
-// let nekretnine = {   //znaci ovo su ovde objekti njima manipulisemo sa .stan .kuca .plac itd.. 
+// let nekretnine = {   //znaci ovo su ovde objekti njima manipulisemo sa .stan .kuca .plac itd..
 //     stan: 60000,
 //     kuca: 130000,
 //     plac: 30000
 // };
 // //racunanje rate za svaku pod nekretnina
-// let godine = 15 ; 
+// let godine = 15 ;
 // let meseci = godine * 12;  //10 godina * 12 meseci
 // let rata = nekretnine.stan / meseci;
 // rata = rata.toFixed(2)// da se prikazuje broj u dve decimale
@@ -340,7 +331,7 @@
 //  rata = rata.toFixed(2)
 
 //  console.log('-----')
-//  console.log(meseci + ' meseci'); 
+//  console.log(meseci + ' meseci');
 // console.log(rata + 'eura');
 //  console.log(`Mesecna rata za plac iznosi ${rata} eura na ${godine} godina`);
 
@@ -353,16 +344,15 @@
 // rata = rata.toFixed(2)
 
 // console.log('-----')
-// console.log(meseci + ' meseci'); 
+// console.log(meseci + ' meseci');
 // console.log(rata + 'eura');
 // console.log(`Mesecna rata za kucu iznosi ${rata} eura na ${godine} godina`);
 
-
-//da nebismo ponavljali ovaj kod i kopirali ga iznova 
+//da nebismo ponavljali ovaj kod i kopirali ga iznova
 // da ga nebismo ponavljali trebaju nam FUNKCIJE
 // FUNKCIJE sluze da u njih smestimo jedan deo koda koji se ponavlja i poziva vise puta
 
-// let nekretnine = { //ovo je ovde objekat 
+// let nekretnine = { //ovo je ovde objekat
 //     stan: 60000,
 //     kuca: 130000,
 //     plac: 30000
@@ -388,8 +378,6 @@
 //     console.log(`Mesecna rata za ${vrstaNekretnine} iznosi ${rata} eura na ${godine} godina`);
 
 // };
-
-
 
 //UPRAVLJANJE RAZLICITIM ELEMENTIMA HTML STRANICE
 
@@ -434,12 +422,11 @@
 //     console.log(model.innerText);
 // }
 
-// let recenica = document.querySelector('#recenica')   
-// //uvek kada znamo da imamo samo taj jedan element na stranici onda idemo querySelector bez All 
+// let recenica = document.querySelector('#recenica')
+// //uvek kada znamo da imamo samo taj jedan element na stranici onda idemo querySelector bez All
 // //i on ce uvek selektovati samo to prvo
 // console.log('----------------')
 // console.log(recenica.innerText)
-
 
 //Sada cemo OBRISATI recenicu iz HTML preko JavaScripta
 //selektovali smo element po id i obrisali ga.
@@ -448,16 +435,16 @@
 // //nema recenice na ekranu + nema recenice u kodu u inspect elements
 
 // //a sada cemo da napravimo novi element
-// let noviEl = document.createElement('div'); 
+// let noviEl = document.createElement('div');
 // //u zagradama pisemo koji cemo element
 
 // console.log(noviEl)
-// //ima ga samo u konzoli i nasem js 
+// //ima ga samo u konzoli i nasem js
 // //ne prikazuje se na stranici
 
-// noviEl.classList = 'novi-element'; 
+// noviEl.classList = 'novi-element';
 // //sada smo mu dodali klasu pomocu .classList
-// // i dalje nije u kodu 
+// // i dalje nije u kodu
 
 // let body = document.querySelector('body');
 // //ovde smo odredili gde cemo da nalepimo nas html element
@@ -468,10 +455,9 @@
 // noviEl.innerText = 'Pozdrav!!!';
 // // sada vidimo nas nalepljeni html element na stranici
 // console.log(noviEl)
-// umesto ovoga mozemo ispisati i 
+// umesto ovoga mozemo ispisati i
 // noviEl.innerHTML = '<hr>Pozdrav!!!'
 // i ovako cemo ispisati vise html elemenata
-
 
 //sada cu da ispisem kod kako treba pravilno po redosledu
 // let noviEl = document.createElement('div');
